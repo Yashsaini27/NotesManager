@@ -1,0 +1,78 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background-color: #f8f9fa;
+  border-bottom: 1px solid #dee2e6;
+}
+
+.search-form {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.search-input {
+  padding: 0.5rem 2.5rem 0.5rem 0.5rem; /* Add padding to the right for the icon */
+  border: 1px solid #ced4da;
+  border-radius: 4px;
+}
+
+.search-button {
+  position: absolute;
+  right: 0;
+  background: none;
+  border: none;
+  padding: 0.5rem;
+  cursor: pointer;
+}
+
+.search-icon {
+  width: 24px;
+  height: 24px;
+  color: black;
+}
+
+.navbar-buttons {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-button,
+.create-button {
+  background-color: #007bff;
+  border: none;
+  color: white;
+  padding: 0.5rem 1rem;
+  margin-left: 0.5rem;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.navbar-button {
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+.create-button {
+  background-color: #007bff;
+}
+
+
+
+.calendar-container {
+  position: absolute;
+  /* top: 30px; */
+  right: 500px;
+  
+  bottom: 110px;
+  background-color: white;
+  border: 1px solid #dee2e6;
+  border-radius: 4px;
+  /* z-index: 1000; */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 1rem;
+}
